@@ -29,17 +29,16 @@
 
 // ================= CHỨC NĂNG 1 =================
 void kiemTraSoNguyen() {
-    int n;
-    printf("Nhap so nguyen: ");
-    scanf("%d", &n);
+    float n;
 
-    printf("So vua nhap la so nguyen.\n");
+    printf("Nhap so: ");
+    scanf("%f", &n);
 
-    // Kiem tra chan le
-    if (n % 2 == 0)
-        printf("La so chan\n");
+    if (n - (int)n == 0)
+        printf("Day la so nguyen\n");
     else
-        printf("La so le\n");
+        printf("Day la so thuc\n");
+}
 
     // Kiem tra so nguyen to
     int laSNT = 1;
